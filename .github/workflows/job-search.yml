@@ -25,4 +25,4 @@ jobs:
       - name: Run job search
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python ./scripts/job_search.py
+        run: python job_search.py
