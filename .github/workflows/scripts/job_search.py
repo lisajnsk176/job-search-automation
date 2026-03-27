@@ -7,10 +7,10 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 def load_resumes():
     resumes = {}
     resume_files = {
-        'revenue_ops': 'revenue-operations.md',
-        'manager': 'manager.md',
-        'account_manager': 'account-manager.md',
-        'sales': 'sales.md'
+        'revenue_ops': 'Lisa Janasik - Resume - Revenue Operations',
+        'manager': 'Lisa Janasik - Resume - Manager',
+        'account_manager': 'Lisa Janasik - Resume - Account Manager',
+        'sales': 'Lisa Janasik - Resume - Sales'
     }
     
     for key, path in resume_files.items():
