@@ -20,7 +20,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install requests openai
+          pip install requests openai PyPDF2
       
       - name: Run job search
         env:
