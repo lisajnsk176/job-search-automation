@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 from openai import OpenAI
 import PyPDF2
